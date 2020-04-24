@@ -21,7 +21,7 @@ public class InitialisererGOs : MonoBehaviour
     void Update()
     {
         m_timesincestart += Time.deltaTime;
-        Debug.Log("Time: " + m_timesincestart);
+       // Debug.Log("Time: " + m_timesincestart);
    
         if(m_timesincestart > m_lifetime)
         {

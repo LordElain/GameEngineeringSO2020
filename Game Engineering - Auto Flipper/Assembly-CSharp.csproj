@@ -63,8 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BodenplatteMesher.cs" />
+    <Compile Include="Assets\Bumper.cs" />
+    <Compile Include="Assets\Chip.cs" />
     <Compile Include="Assets\InitialisererGOs.cs" />
     <Compile Include="Assets\TestStandardFunctions.cs" />
+    <Compile Include="Assets\TransformGOs.cs" />
+    <Compile Include="Assets\TransformTest.cs" />
+    <Compile Include="Assets\TransformVertices.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/IT/Progs/GameEngineeringSO2020/Game Engineering - Auto Flipper/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
